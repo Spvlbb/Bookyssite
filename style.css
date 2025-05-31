@@ -62,7 +62,7 @@ p{
 .about{
    flex: 1 ;
   max-width: 600px;
-  max-height: 90dvh;
+  max-height: 75dvh;
   color: white;
   border-radius: 8px; 
   margin: 10px;
