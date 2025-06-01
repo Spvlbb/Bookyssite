@@ -100,3 +100,41 @@ iframe {
     min-width: 50dvw;
     width: 5dvw;
 }
+/* Base styling (for desktop/tablet) */
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.about,
+.videos {
+  width: 48%;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .about,
+  .videos {
+    width: 100%;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  h1, h2, p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+}
+
